@@ -4,8 +4,8 @@ services:
     build: irc
     restart: always
     volumes:
-      - /srv/data/irc/config:/srv/config
-      - /srv/data/irc/home:/home
+      - /srv/data/aikain/irc/config:/srv/config
+      - /srv/data/aikain/irc/home:/home
     ports:
       - "0.0.0.0:5568:80"
       - "0.0.0.0:9050-9059:9050-9059"
